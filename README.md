@@ -1,12 +1,12 @@
-# machine-learning
+#📘 Automatic Evaluation of Algebra Responses using MathBERT and ML
 An automated system to evaluate algebra answers using MathBERT embeddings and machine learning models like SVM and Random Forest, enabling fast, consistent, and scalable grading of student responses.
-📘 Automatic Evaluation of Algebra Responses using MathBERT and ML
-🧠 Overview
+
+#🧠 Overview
 Grading open-ended algebra responses manually is time-consuming and inconsistent. This project automates that process using MathBERT, a BERT-based language model fine-tuned for mathematical contexts, in combination with machine learning classifiers like SVM, Random Forest, KNN, and Decision Tree.
 
 Our approach converts student answers into dense MathBERT embeddings and classifies them as correct or incorrect, enhancing grading efficiency, fairness, and scalability in educational settings.
 
-🎯 Objectives
+#🎯 Objectives
 ✅ Efficiency: Reduce manual grading workload.
 
 ✅ Consistency: Standardized and unbiased grading.
@@ -17,14 +17,14 @@ Our approach converts student answers into dense MathBERT embeddings and classif
 
 ✅ Educational Insights: Identify common errors and help improve teaching.
 
-📊 Dataset Description
+#📊 Dataset Description
 📄 Responses from ~50 students to 21 algebra questions.
 
 📐 Transformed into 385-dimensional MathBERT embeddings.
 
 📊 Final dataset: 1024 rows of embedded vectors + labels.
 
-🛠️ Methodology
+#🛠️ Methodology
 🔹 1. Data Preprocessing
 Removed duplicates and null values.
 
@@ -50,7 +50,7 @@ Trained the following models:
 
 Applied 4-fold cross-validation to prevent overfitting.
 
-🔹 4. Evaluation Metrics
+#🔹 4. Evaluation Metrics
 📌 Accuracy
 
 📌 Precision
@@ -61,7 +61,7 @@ Applied 4-fold cross-validation to prevent overfitting.
 
 Visualizations using bar plots helped interpret model performance.
 
-📈 Results Summary
+#📈 Results Summary
 Model	Accuracy (Train/Test)	F1-Score	Precision	Recall
 SVM	76.54% / 78.26%	0.74	0.77	0.78
 KNN	78.58% / 72.46%	0.72	0.72	0.72
